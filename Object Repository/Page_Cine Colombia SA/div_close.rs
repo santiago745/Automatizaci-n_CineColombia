@@ -3,7 +3,7 @@
    <description></description>
    <name>div_close</name>
    <tag></tag>
-   <elementGuidId>950ec49e-d34a-483f-934b-ebef61187910</elementGuidId>
+   <elementGuidId>57543f3d-28e2-48e7-841c-0482e0e67991</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,14 +59,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'cboxClose', '&quot;', ')')])[1]/following::div[19]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VILLAVICENCIO'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='twitter cine colombia'])[1]/following::div[24]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='POPAYÁN'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

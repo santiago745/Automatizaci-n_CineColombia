@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span</name>
+   <name>span_cartelera (1)</name>
    <tag></tag>
-   <elementGuidId>bac6f496-faee-4309-b720-f038e1f24362</elementGuidId>
+   <elementGuidId>05bd6f9a-7c82-42fd-8d58-af7ba31aa8ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='todas-las-funciones']/div[4]/h3/span</value>
+         <value>//div[@id='primary-menu-bar']/nav/ul/li[2]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,50 +22,57 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cartelera</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;todas-las-funciones&quot;)/div[@class=&quot;cada-teatro-para-funciones par&quot;]/h3[1]/span[1]</value>
+      <value>id(&quot;primary-menu-bar&quot;)/nav[@class=&quot;clearfix&quot;]/ul[@class=&quot;menu primary-menu clearfix&quot;]/li[2]/a[1]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='todas-las-funciones']/div[4]/h3/span</value>
+      <value>//div[@id='primary-menu-bar']/nav/ul/li[2]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cine Colombia Centro Mayor'])[1]/span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inicio'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más películas en este teatro'])[3]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main menu'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lunes, Julio 8 de 2019 | Calle 38 A Sur - N° 34 D -50'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Próximos estrenos'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más películas en este teatro'])[4]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CINECO ALTERNATIVO'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/h3/span</value>
+      <value>//li[2]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

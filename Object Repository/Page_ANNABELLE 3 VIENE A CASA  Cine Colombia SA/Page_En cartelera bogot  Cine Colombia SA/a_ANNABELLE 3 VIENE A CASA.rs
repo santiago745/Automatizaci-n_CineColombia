@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_cartelera</name>
+   <name>a_ANNABELLE 3 VIENE A CASA</name>
    <tag></tag>
-   <elementGuidId>f6c10bc6-e176-44c8-b963-567b539f2da4</elementGuidId>
+   <elementGuidId>8b16463d-d5cf-42ab-8f87-57c18dd6b495</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='primary-menu-bar']/nav/ul/li[2]/a/span</value>
+         <value>//div[@id='content']/div/div[2]/div[3]/div[2]/h3/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.cinecolombia.com/pelicula/bogota/annabelle-3-viene-casa</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>ANNABELLE 3: VIENE A CASA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>cartelera</value>
+      <value>ANNABELLE 3: VIENE A CASA</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;primary-menu-bar&quot;)/nav[@class=&quot;clearfix&quot;]/ul[@class=&quot;menu primary-menu clearfix&quot;]/li[2]/a[1]/span[1]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;homescategorias-wrapper&quot;]/div[@class=&quot;fila_nodos&quot;]/div[@class=&quot;item_pelicula&quot;]/div[@class=&quot;items_text&quot;]/h3[@class=&quot;titulo_pelicula_typo01&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='primary-menu-bar']/nav/ul/li[2]/a/span</value>
+      <value>//div[@id='content']/div/div[2]/div[3]/div[2]/h3/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ANNABELLE 3: VIENE A CASA')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inicio'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver más'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main menu'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='comprar boletas'])[2]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Próximos estrenos'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estrena:'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CINECO ALTERNATIVO'])[1]/preceding::span[2]</value>
+      <value>//a[contains(@href, 'https://www.cinecolombia.com/pelicula/bogota/annabelle-3-viene-casa')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a/span</value>
+      <value>//div[3]/div[2]/h3/a</value>
    </webElementXpaths>
 </WebElementEntity>

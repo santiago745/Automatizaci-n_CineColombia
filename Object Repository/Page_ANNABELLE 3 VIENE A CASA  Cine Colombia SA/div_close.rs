@@ -3,7 +3,7 @@
    <description></description>
    <name>div_close</name>
    <tag></tag>
-   <elementGuidId>14d4f14b-de48-4b0b-82ce-506fd3882fcf</elementGuidId>
+   <elementGuidId>dcd265ee-3dd9-430a-83cc-0e5783155406</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

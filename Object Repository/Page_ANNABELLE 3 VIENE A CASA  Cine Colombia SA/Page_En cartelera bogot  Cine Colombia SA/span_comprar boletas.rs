@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span</name>
+   <name>span_comprar boletas</name>
    <tag></tag>
-   <elementGuidId>bac6f496-faee-4309-b720-f038e1f24362</elementGuidId>
+   <elementGuidId>b41f05f9-56d1-4436-909a-ff9bcdf20c0a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='todas-las-funciones']/div[4]/h3/span</value>
+         <value>//div[@id='content']/div/div[2]/div[3]/div[4]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,50 +22,57 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> comprar boletas </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;todas-las-funciones&quot;)/div[@class=&quot;cada-teatro-para-funciones par&quot;]/h3[1]/span[1]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;homescategorias-wrapper&quot;]/div[@class=&quot;fila_nodos&quot;]/div[@class=&quot;item_pelicula&quot;]/div[@class=&quot;item_links&quot;]/a[@class=&quot;comprar_boletas&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='todas-las-funciones']/div[4]/h3/span</value>
+      <value>//div[@id='content']/div/div[2]/div[3]/div[4]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cine Colombia Centro Mayor'])[1]/span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terror'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más películas en este teatro'])[3]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secuela,'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lunes, Julio 8 de 2019 | Calle 38 A Sur - N° 34 D -50'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver más'])[3]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más películas en este teatro'])[4]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MAESTRAS DEL ENGAÑO'])[2]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/h3/span</value>
+      <value>//div[3]/div[4]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>
