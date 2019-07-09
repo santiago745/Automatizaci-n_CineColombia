@@ -19,8 +19,6 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.cinecolombia.com/bogota/comidas')
 
-WebUI.click(findTestObject('Object Repository/Page_COMIDAS  Cine Colombia SA/div_close'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_COMIDAS  Cine Colombia SA/a_Aceptar'))

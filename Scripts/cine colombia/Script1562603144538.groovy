@@ -13,15 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.cinecolombia.com/')
-
-WebUI.click(findTestObject('Page_Cine Colombia SA/div_close (1)'))
-
-WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_Cine Colombia SA/div_close (1)'))
 
@@ -31,32 +23,5 @@ WebUI.click(findTestObject('Page_Cine Colombia SA/span_cartelera (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_En cartelera bogot  Cine Colombia SA/div_close'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/Page_En cartelera bogot  Cine Colombia SA/a_ANNABELLE 3 VIENE A CASA'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/div_close (1)'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/a_Aceptar (1)'))
-
-/*WebUI.scrollToElement(findTestObject('Demo/Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/h3_Cine Colombia Andino'), 0)
-
-not_run: WebUI.waitForElementPresent(findTestObject('Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/img_Seleccione un da_ui-datepicker-trigger'), 
-    30)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Demo/Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/h3_Cine Colombia Andino'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Demo/Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/a_0940 pm'))
-
-WebUI.delay(3)*/
 

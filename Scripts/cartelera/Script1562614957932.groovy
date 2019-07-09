@@ -13,33 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.cinecolombia.com/bogota')
-
-WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/div_close'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/span_cartelera'))
-
-WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/div_close'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/a_Aceptar'))
+WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/span_cartelera'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/a_ANNABELLE 3 VIENE A CASA'))
-
-WebUI.click(findTestObject('Object Repository/Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/div_close'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/h3_Cine Colombia Andino'))
-
-WebUI.click(findTestObject('Object Repository/Page_ANNABELLE 3 VIENE A CASA  Cine Colombia SA/a_0500 pm'))
 
