@@ -19,7 +19,4 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/span_cartelera'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/a_ANNABELLE 3 VIENE A CASA'))
 
