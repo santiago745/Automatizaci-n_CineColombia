@@ -13,21 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.cinecolombia.com/bogota')
-
-WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/div_close'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/span_cartelera'))
-
-WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/div_close'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_En cartelera bogot  Cine Colombia SA/a_Aceptar'))
+WebUI.click(findTestObject('Object Repository/Page_Cine Colombia SA/span_cartelera'))
+
 
